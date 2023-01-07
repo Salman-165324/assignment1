@@ -12,6 +12,12 @@
 
 }
 
+.primary-heading {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
 /* Header Section */
 
 /* nav menue nad icon */
@@ -76,7 +82,7 @@ header {
 
 }
 
-.banner{
+.banner {
     padding-bottom: 300px;
 }
 
@@ -102,13 +108,92 @@ header {
 
     /* margin-right: 150px;
     margin-left: 1500px; */
-    margin-bottom: 32px ;
+    margin-bottom: 32px;
     margin-right: 150px;
 
 }
-.banner-button{
+
+.banner-button {
     text-align: end;
- 
+
+}
+
+/* failure section */
+
+main {
+
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.failure-heading-texts {
+    margin-top: 369px;
+    margin-left: 100px;
+    margin-bottom: 214px;
+}
+
+.failure-description {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.failure-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failure-section img {
+
+    margin-top: 131px;
+
+}
+
+.failure-section li {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+/* My plans */
+
+.my-plans h2{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px ;
 }
 
 
+
+.my-plan-item-lists{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 124px;
+}
+
+.positive-image{
+
+    margin-bottom: 130px;
+}
+
+footer{
+    max-width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.social-media{
+    display: flex;
+    /* justify-content: ; */
+}
