@@ -1,4 +1,114 @@
-*{
+* {
     margin: 0;
-    
+    font-family: 'Work Sans', sans-serif;
 }
+
+.primary-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 21px 25px 20px 21px;
+    background: #F15B22;
+
+}
+
+/* Header Section */
+
+/* nav menue nad icon */
+
+nav {
+    padding-top: 20px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 50px;
+    color: #000000;
+    padding: 8px 10px 10px 10px;
+    margin-left: 122px;
+}
+
+.logo span {
+    color: #FFEB00;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+
+}
+
+.menue-title {
+    padding: 10px;
+    margin-right: 18px;
+
+}
+
+.primary-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 21px 25px 20px 21px;
+    background: #F15B22;
+    margin-right: 153px;
+}
+
+
+/* nav menue nad icon end */
+
+/* banner */
+
+
+header {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner{
+    padding-bottom: 300px;
+}
+
+.heading {
+
+    margin-top: 216px;
+    margin-bottom: 26px;
+    text-align: end;
+    margin-right: 150px;
+
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+
+}
+
+.banner-description {
+    text-align: end;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    text-align: end;
+
+    /* margin-right: 150px;
+    margin-left: 1500px; */
+    margin-bottom: 32px ;
+    margin-right: 150px;
+
+}
+.banner-button{
+    text-align: end;
+ 
+}
+
+
