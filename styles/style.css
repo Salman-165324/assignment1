@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -12,15 +13,24 @@
 
 }
 
+.secondary-btn {
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 36px 20px 36px;
+}
+
 .primary-heading {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
 }
 
-/* Header Section */
 
-/* nav menue nad icon */
+/* nav menue and icon */
 
 nav {
     padding-top: 20px;
@@ -70,8 +80,6 @@ nav li {
 }
 
 
-/* nav menue nad icon end */
-
 /* banner */
 
 
@@ -93,8 +101,8 @@ header {
     text-align: end;
     margin-right: 150px;
 
-    font-weight: 700;
-    font-size: 65px;
+    font-weight: 900;
+    font-size: 60px;
     color: #151414;
 
 }
@@ -152,12 +160,18 @@ main {
     margin-top: 131px;
 
 }
-
+.failure-section ul{
+    list-style: none;
+}
+.failure-section ul li:before{
+    content: '✓' ;
+}
 .failure-section li {
 
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    list-style: ;
 
 }
 
@@ -186,6 +200,24 @@ main {
     margin-bottom: 130px;
 }
 
+/* positive mindset section */
+.positive-mindset-heading{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+
+    padding-top: 59px;
+    padding-left: 64px;
+    padding-bottom: 24px;
+
+}
+
+.positive-mindset button{
+
+    margin-bottom: 59px;
+    margin-left: 64px;
+
+}
 
 /* footer section */
 
@@ -273,7 +305,7 @@ textarea[placeholder] {
 
 }
 
-.footer-btn {
+.secondary-btn {
     background: #FFFFFF;
     border-radius: 8px;
 
@@ -282,3 +314,18 @@ textarea[placeholder] {
     font-size: 20px;
     padding: 20px 36px 20px 36px;
 }
+
+
+.positive-mindset {
+    margin-top: 124px;
+    margin-bottom: 130px;
+    background-image: linear-gradient(to right,
+    rgba(241, 91, 34, 1),
+    rgba(241, 91, 34,.7),
+    rgba(241, 91, 34,0)
+    );
+    border: solid #000000;
+}
+
+
+
